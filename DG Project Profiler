@@ -1,8 +1,8 @@
 import sqlite3
 import pandas as pd
 
- db_path = '/Users/vikramsrinivasan/Documents/Optilogic/2023_DDM_DG_Template/2023_DDM_Training_Template.dgproj'    # Connect to the SQLite database
-    conn = sqlite3.connect(db_path)
+db_path = '/Users/vikramsrinivasan/Documents/Optilogic/2023_DDM_DG_Template/2023_DDM_Training_Template.dgproj'    # Connect to the SQLite database
+   conn = sqlite3.connect(db_path)
 
 # List of tables in the database
 tables = ['ProjectData','ConnectionData', 'MacroActionData', 'ConfiguredActionData', 'DesignerNoteData', 'ReplaceableParameterData', 'PropertyBagData', 'DatastoreContextData']
